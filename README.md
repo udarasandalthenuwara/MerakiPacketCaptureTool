@@ -52,7 +52,9 @@ Save the project (e.g., name it "MerakiPacketCaptureTool").
 ## 4. Authorize the Script
 Run the onOpen function manually from the Apps Script editor to create the "PCAP Tools" menu.
 Grant the necessary permissions when prompted (access to Spreadsheet, external APIs, etc.).
-Usage
+
+## Usage
+
 Start Continuous Capture:
 In the Apps Script editor, run startContinuousPacketCapture().
 This will begin capturing packets every 130 seconds. To stop, manually halt the script execution.
@@ -69,11 +71,12 @@ Code.gs: The Google Apps Script containing all functions.
 MerakiPacketCaptureTemplate.xlsx: A template spreadsheet with preconfigured sheets.
 
 
-Notes
+## Notes
+
 The continuous capture runs indefinitely; stop it manually in the Apps Script editor if needed.
 Ensure your Meraki API key has appropriate permissions for packet capture operations.
 Downloaded PCAP files can be analyzed with tools like Wireshark.
 
 
-Contributing
+## Contributing
 Feel free to fork this repository, submit issues, or create pull requests with improvements!
