@@ -24,20 +24,23 @@ cd MerakiPacketCaptureTool
 Open MerakiPacketCaptureTemplate.xlsx in Google Sheets:
 Upload the file to Google Drive, then open it with Google Sheets.
 Alternatively, create a new spreadsheet and manually set up two sheets:
+
 Getting Started: Add labels in column A:
-A1: "Organization ID"
-A2: "API Key"
-A3: "Device Serial Number"
-A5: "Interface Type (e.g., wan1)"
+  A1: "Organization ID"
+  A2: "API Key"
+  A3: "Device Serial Number"
+  A5: "Interface Type (e.g., wireless)"
+
 pcap list: Add headers in row 1:
-A1: "Capture ID"
-B1: "Download URL"
-C1: "Timestamp"
+  A1: "Capture ID"
+  B1: "Download URL"
+  C1: "Timestamp"
+
 Fill in the "Getting Started" sheet (column B):
-B1: Your Meraki Organization ID
-B2: Your Meraki API Key (generate from the Meraki Dashboard)
-B3: The serial number of the Meraki device to monitor
-B5: The interface type (e.g., "wan1")
+  B1: Your Meraki Organization ID
+  B2: Your Meraki API Key (generate from the Meraki Dashboard)
+  B3: The serial number of the Meraki device to monitor
+  B5: The interface type (e.g., "wan1")
 
 4. Install the Script
 In your Google Sheet, go to Extensions > Apps Script.
