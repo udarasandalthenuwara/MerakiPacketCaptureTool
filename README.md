@@ -17,7 +17,6 @@ A Google Apps Script tool for managing Cisco Meraki packet captures. This tool a
 ## Setup Instructions
 
 ### 1. Clone the Repository
-bash
 git clone https://github.com/yourusername/MerakiPacketCaptureTool.git
 cd MerakiPacketCaptureTool
 
