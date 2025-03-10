@@ -16,11 +16,12 @@ A Google Apps Script tool for managing Cisco Meraki packet captures. This tool a
 
 ## Setup Instructions ## 
 
-1. Clone the Repository
+## 1. Clone the Repository
+
 git clone https://github.com/yourusername/MerakiPacketCaptureTool.git
 cd MerakiPacketCaptureTool
 
-2. Set Up the Spreadsheet
+## 2. Set Up the Spreadsheet
 Open MerakiPacketCaptureTemplate.xlsx in Google Sheets:
 Upload the file to Google Drive, then open it with Google Sheets.
 Alternatively, create a new spreadsheet and manually set up two sheets:
@@ -42,13 +43,13 @@ Fill in the "Getting Started" sheet (column B):
   B3: The serial number of the Meraki device to monitor
   B5: The interface type (e.g., "wan1")
 
-4. Install the Script
+## 3. Install the Script
 In your Google Sheet, go to Extensions > Apps Script.
 Delete any existing code.
 Copy the contents of Code.gs from this repository and paste it into the script editor.
 Save the project (e.g., name it "MerakiPacketCaptureTool").
 
-6. Authorize the Script
+## 4. Authorize the Script
 Run the onOpen function manually from the Apps Script editor to create the "PCAP Tools" menu.
 Grant the necessary permissions when prompted (access to Spreadsheet, external APIs, etc.).
 Usage
